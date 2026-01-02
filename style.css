@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.customizer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.preview img {
+  width: 300px;
+}
+
+.options button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
