@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bracelet Customizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bracelet Customizer</h1>
+
+  <div class="bracelet-container">
+    <img id="bracelet" src="bracelet-base.png" alt="Bracelet Base">
+    <img id="photo" src="" class="overlay" alt="Customized Photo">
+  </div>
+
+  <div class="controls">
+    <label>Number of plain charms: 
+      <input type="number" id="plainCount" min="0" value="0">
+    </label>
+    <label>Number of customized photos: 
+      <input type="number" id="photoCount" min="0" value="0">
+    </label>
+    <button onclick="calculatePrice()">Show Customized Preview & Price</button>
+  </div>
+
+  <div class="info">
+    <p id="price"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
